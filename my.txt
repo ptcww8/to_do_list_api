@@ -1,0 +1,9 @@
+< access-token: dzvZ3wXSJ8NJbDBZXvJAEg
+< client: Ug5inHZZJzASu-DeX5SSig
+< uid: test@email.com
+
+
+curl -H 'Content-Type: application/json' -H 'access-token: dzvZ3wXSJ8NJbDBZXvJAEg' -H 'client: Ug5inHZZJzASu-DeX5SSig' -H "uid: test@email.com"  -X GET https://railsclass4-princetituscodjoe899265.codeanyapp.com/api/v1/todos
+
+
+curl -H 'access-token: bbbhCbGkkVQ27VFndWot-w' -H 'client: EWCN2MGxbqZ0JYMRzJk26A' -H "uid: prince.titus.codjoe@gmail.com"  -X POST -d 'title=International Sunday' https://railsclass4-princetituscodjoe899265.codeanyapp.com/api/v1/todos
